@@ -1,0 +1,24 @@
+Git基本操作
+     同步
+     git pull
+
+     更新 - 提交
+     gulp lint -- 检验代码 -- 修复错误
+
+     git status
+     git add --all   -- 用于新增文件（Git 2.0 可用git add .代替）
+     git commit -a
+     git commit -am
+
+     提交review
+     arc diff HEAD^
+arc diff --create
+     Insert
+     Esc
+     :wq（注：write & quit）
+
+     git push -- 确认提交
+
+     git checkout . # 撤销本次所有修改
+
+     git checkout 分支名 切换分支（通常我们有develop开发分支和master主分支，根据不同功能会新开分支）
